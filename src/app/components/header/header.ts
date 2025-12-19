@@ -10,5 +10,8 @@ import { Button } from '../button/button';
 export class Header implements OnInit {
   title: string  = "task-tracker"
   constructor() {}
-  ngOnInit(): void{}
+  ngOnInit(): void{ }
+  onAdd(){
+    console.log("Add button clicked from Header component");
+  }
 }
